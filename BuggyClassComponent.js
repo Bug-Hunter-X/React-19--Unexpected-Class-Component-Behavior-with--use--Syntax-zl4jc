@@ -1,0 +1,1 @@
+In React 19, using the new `use` syntax with a class component can lead to unexpected behavior if not handled properly.  For example, if you try to directly `use` a state update function within a class method, it might not work as expected due to the differences in how class components and functional components manage state and lifecycle.
